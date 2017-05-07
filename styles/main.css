@@ -1,6 +1,5 @@
 body {
-  background-color: ;
-  font-family: calibri;
+    font-family: calibri;
 }
 
 h1, h2 {
@@ -13,7 +12,7 @@ p {
   color: #646362;
 }
 ul {
-  color: teal;
+  color: #999;
   padding: 10px;
 }
 }
@@ -24,5 +23,8 @@ a {
   background: #E2E2E1;
   color: ;
   padding: 10px, 10px, 10px, 10px;
-
+}
+img {
+  border-radius: 15px;
+  corner-shape: bevel;
 }
