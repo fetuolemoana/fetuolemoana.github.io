@@ -4,17 +4,15 @@ body {
 }
 
 h1, h2 {
-  color: darkcyan;
+  color: #999;
 }
 h3 {
   color: #F28445;
 }
 p {
-  background: #E2E2E1;
   color: #646362;
 }
 ul {
-  background-color: teal;
   color: teal;
   padding: 10px;
 }
@@ -23,6 +21,8 @@ a {
   color: #F28445;
 }
 .secondary {
-  background: ;
-  color: 10px, 10px, 10px, 10px;
+  background: #E2E2E1;
+  color: ;
+  padding: 10px, 10px, 10px, 10px;
+
 }
