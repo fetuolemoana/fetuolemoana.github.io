@@ -9,10 +9,12 @@ h3 {
   color: teal;
 }
 p {
+  background: #3D9970
   color: #646362;
+
 }
 ul {
-  color: teal;
+  color: #3D9970;
   padding: 20px;
 }
 }
