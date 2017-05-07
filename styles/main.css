@@ -2,8 +2,9 @@ body {
   background-color: ;
   font-family: calibri;
 }
+
 h1, h2 {
-  color: teal;
+  color: darkcyan;
 }
 h3 {
   color: #F28445;
@@ -12,6 +13,11 @@ p {
   background: #E2E2E1;
   color: #646362;
   padding: 5px;
+
+ul {
+  background-color: teal;
+  color: teal;
+}
 }
 a {
   color: #F28445;
