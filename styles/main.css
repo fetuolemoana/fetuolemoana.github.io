@@ -6,25 +6,22 @@ h1, h2 {
   color: #999;
 }
 h3 {
-  color: #F28445;
+  color: teal;
 }
 p {
   color: #646362;
 }
 ul {
-  color: #999;
-  padding: 10px;
+  color: teal;
+  padding: 20px;
 }
 }
 a {
   color: #F28445;
 }
-.secondary {
-  background: #E2E2E1;
-  color: ;
-  padding: 10px, 10px, 10px, 10px;
-}
+
 img {
+  align-self: center;
   border-radius: 15px;
   corner-shape: bevel;
 }
