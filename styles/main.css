@@ -1,7 +1,6 @@
 body {
     font-family: calibri;
 }
-
 h1, h2 {
   color: #999;
 }
@@ -9,11 +8,10 @@ h3 {
   color: teal;
 }
 p {
-  background: #3D9970;
   color: #646362;
-
 }
 ul {
+  background-color: #f9d1e9;
   color: #3D9970;
   padding: 20px;
 }
@@ -21,7 +19,6 @@ ul {
 a {
   color: #F28445;
 }
-
 img {
   align-self: center;
   border-radius: 15px;
