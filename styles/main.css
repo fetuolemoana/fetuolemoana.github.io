@@ -17,8 +17,14 @@ nav ul li a {
   color: white;
   text-align: center;
   text-decoration: none;
-
 }
+
 header {
   padding: 10%;
+}
+header h2 {
+  color: teal;
+}
+header h3 {
+  color: grey;
 }
