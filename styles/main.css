@@ -6,14 +6,14 @@ nav ul {
 
 }
 
-nav ul li {
+nav li {
   float: right;
   margin: 10px;
   font-weight: bolder;
 
 }
 
-nav ul li a {
+nav a {
   color: white;
   text-align: center;
   text-decoration: none;
@@ -22,9 +22,21 @@ nav ul li a {
 header {
   padding: 10%;
 }
-header h2 {
+h2 {
   color: teal;
 }
-header h3 {
+h3 {
   color: grey;
+}
+
+#whanau ul {
+  list-style: none;
+}
+
+#culture ul {
+  list-style: none;
+}
+
+#technical ul {
+  list-style: none;
 }
