@@ -1,6 +1,6 @@
 nav ul {
   list-style: none;
-  background-color: black;
+  background-color: orange;
   position:fixed;
   width: 100%;
 }
@@ -24,42 +24,22 @@ header {
 h2 {
   color: teal;
 }
-h3 {
+p {
   color: grey;
 }
 
-#whanau {
-  text-align: justify;
-
-}
-
-#culture {
+.homecontents {
   text-align: justify;
 }
 
-#technical {
-  text-align: justify;
+.homecontents a {
+  font-weight: bold;
+  color: grey;
 }
 
-
-#whanau ul {
-  list-style: none;
-  font-weight: bolder;
-}
-#culture ul {
-  list-style: none;
-  font-weight: bolder;
-}
-#technical ul {
-  list-style: none;
-  font-weight: bolder;
-}
-#whanau a {
-  text-decoration: none;
-}
-#culture a {
-  text-decoration: none;
-}
-#technical a {
-  text-decoration: none;
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: teal;
+  color: white;
 }
