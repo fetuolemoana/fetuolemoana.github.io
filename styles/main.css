@@ -3,12 +3,11 @@ nav ul {
   background-color: black;
   position:fixed;
   width: 100%;
-
 }
 
 nav li {
   float: right;
-  margin: 10px;
+  margin: 1%;
   font-weight: bolder;
 
 }
@@ -29,14 +28,38 @@ h3 {
   color: grey;
 }
 
+#whanau {
+  text-align: justify;
+
+}
+
+#culture {
+  text-align: justify;
+}
+
+#technical {
+  text-align: justify;
+}
+
+
 #whanau ul {
   list-style: none;
+  font-weight: bolder;
 }
-
 #culture ul {
   list-style: none;
+  font-weight: bolder;
 }
-
 #technical ul {
   list-style: none;
+  font-weight: bolder;
+}
+#whanau a {
+  text-decoration: none;
+}
+#culture a {
+  text-decoration: none;
+}
+#technical a {
+  text-decoration: none;
 }
