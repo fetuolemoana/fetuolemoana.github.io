@@ -41,6 +41,10 @@ p {
   color: grey;
 }
 
+article {
+  display: inline-flex;
+}
+
 footer {
   background-color: white;
   height: 10px;
