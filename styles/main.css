@@ -1,12 +1,23 @@
 body {
-  background:whitesmoke;
+  background:white;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding: 10px; 
+}
+.main-header {
+position: relative;
+text-align: center;
+filter: grayscale(70%);
+}
+.block {
+  
+}
+.block-text {
+
 }
 h1 {color:#444;}
 h2, p, li {color: teal;
 }
-h3 {color:whitesmoke;
+h3 {
+color:white;
 background-color:teal;
 padding: 10px;
 }
