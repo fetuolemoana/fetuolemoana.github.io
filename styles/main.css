@@ -1,23 +1,23 @@
+/** These are the styles for
+the whole website **/
+
 .navigation {
   text-align: center;
+  color: #000000;
 }
 
 .footer {
   text-align: center;
 }
 
-/***************************
-These are the styles for
-the index page
-****************************/
+/** These are the styles for
+the index page **/
 
 .grid-contents {
 
 }
-/***************************
-These are the styles for
-the blog pages
-***************************/
+/** These are the styles for
+the blog pages **/
 
 .blog {
 text-align: center;
