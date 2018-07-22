@@ -1,7 +1,25 @@
-* {
+.navigation {
+  text-align: center;
+}
+.footer {
   text-align: center;
 }
 
-.grid-contents h3 {
-text-decoration-line: none;
+/***************************
+These are the styles for
+the index page
+****************************/
+
+.grid-contents a:link {
+text-decoration: none;
+color: grey;
 }
+.grid-contents a:hover {
+  color: black;
+}
+
+/***************************
+These are the styles for
+the blog pages
+***************************/
+
