@@ -1,7 +1,4 @@
-.navigation {
-  text-align: center;
-  text-decoration: none;
-}
+
 .footer {
   text-align: center;
 }
@@ -11,14 +8,9 @@ These are the styles for
 the index page
 ****************************/
 
-.grid-contents a:link {
-text-decoration: none;
-color: grey;
-}
-.grid-contents a:hover {
-  color: black;
-}
+.grid-contents {
 
+}
 /***************************
 These are the styles for
 the blog pages
