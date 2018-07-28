@@ -1,13 +1,12 @@
 /** These are the styles for
 the whole website **/
 
-h1 h2 h3 h4 {
-  text-decoration: none;
-}
-
 .navigation {
   text-align: center;
   color: #000000;
+}
+.navigation a {
+  text-decoration-line: none;
 }
 
 .footer {
@@ -17,9 +16,8 @@ h1 h2 h3 h4 {
 /** These are the styles for
 the index page **/
 
-.grid-contents {
+.grid-contents a {
   text-decoration-line: none;
-
 }
 /** These are the styles for
 the blog pages **/
