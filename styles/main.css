@@ -1,6 +1,10 @@
 /** These are the styles for
 the whole website **/
 
+h1 h2 h3 h4 {
+  text-decoration: none;
+}
+
 .navigation {
   text-align: center;
   color: #000000;
@@ -14,6 +18,7 @@ the whole website **/
 the index page **/
 
 .grid-contents {
+  text-decoration-line: none;
 
 }
 /** These are the styles for
