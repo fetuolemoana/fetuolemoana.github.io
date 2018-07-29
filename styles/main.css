@@ -2,8 +2,10 @@
 the whole website **/
 
 .navigation {
+  height: 150px;
   text-align: center;
   color: #000000;
+  margin-top: 30px; 
 }
 .navigation a {
   text-decoration-line: none;
@@ -11,6 +13,7 @@ the whole website **/
 
 .footer {
   text-align: center;
+  margin-top: 100px; 
 }
 
 /** These are the styles for
