@@ -1,54 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>the umu* stack - technical blog</title>
-    <meta charset="UTF-8">
-    <link href="/styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>the umu* stack</h1>
-    <h2>Technical blog</h2>
-    <h3>Building an HTML CSS DOM umu</h3>
-    <p>
-        To build an umu you need stones, wood, coconut shells, husk and food of course! 
-    </p>
-    <p>
-        The wood and kindling husk is set alight and the stones become hot and food is then placed on top of the stones and covered with leaves. 
-    </p>
-    <p>
-        Baskets are woven and when they are complete, the food should be cooked. 
-    </p>
-    <p>
-        Food is placed with care in the baskets and distributed to neighbouring families in the village.
-    </p>
-    <ul>
-        <li>HTML is like the items needed to cook the food; the wood, stones, coconut shells and husk. It acts as a foundation of the whole website 'cooking' process. Without this foundation, you will not be able to cook any delicious food.</li>
-        <li>CSS is like the food placed and cooked on top of the umu foundation which then becomes yummy and flavourful. If the food is not stacked with care on top of the stones and in the correct order, the food may be undercooked or burnt.</li>
-        <li>DOM is like the process of weaving and placing food in baskets and sharing it. This process is like the representation or 'interface' of the relationship you have with your fellow vilagers.</li>
-    </ul>
-    <h3>Boxifying design</h3>
-    <p>
-        Boxifying design and the box model are a crucial part of the web page 'cooking' process.
-    </p>
-    <p>
-        To 'boxify a design' is to break a web design mock up down into smaller boxes. To do this you may:
-    </p>
-    <ul>
-        <li>make boxes on an image of the design</li>
-        <li>draw boxes to represent the design freehand</li>
-        <li>print the design and cut it into boxes</li>
-    </ul>
-    <p>
-        These methods are great ways to break down what lays ahead for implementing the design. 
-    </p>
-    <p>
-        The boxify process allows you to have a visual representation on the structure required to build the foundation of the website.
-    </p>
-    <p>
-        A great way to understand the layout of web pages is to get familiar with the 'box model'. 
-    </p>
-    <p>
-        In Udacity Lesson 1, I learnt that EVERY element is a rectangular box made made up of a margin, border and padding around content.
-    </p>
-  </body>
+<html>
+<head>
+  <title>Building an umu - the umu* stack</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="https://fetuolemoana.github.io/styles/main.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="container">
+    <div class="row, navigation"> 
+        <div class="two columns">
+          <h4>about</h4>
+        </div>
+        <div class="two columns">
+          <h4>blog</h4>
+        </div>
+        <div class="four columns">
+          <a href="https://fetuolemoana.github.io/">
+            <img src="https://fetuolemoana.github.io/images/ocean-profile.jpg" alt="ocean face">
+          </a>
+        </div>
+        <div class="two columns">
+          <h4>projects</h4>
+        </div>
+        <div class="two columns">
+          <h4>contact</h4>
+        </div>
+    </div>
+  </div>
+<!-- Blog content -->
+  <div class="container">
+    <div class="row, blog">
+    <div class="three columns">
+    </div>
+      <div class="six columns">
+        <p>18 July 2018</p>
+        <h2>Building an umu: HTML, CSS and the DOM</h2>
+          <p>
+            To build an umu you need stones, wood, coconut shells, husk and food of course! 
+          </p>
+          <p>
+            The wood and kindling husk is set alight and the stones become hot and food is then placed on top of the stones and covered with leaves. 
+          </p>
+          <p>
+            Baskets are woven and when they are complete, the food should be cooked. 
+          </p>
+          <p>
+            Food is placed with care in the baskets and distributed to neighbouring families in the village.
+          </p>
+          <ul>
+          <li>HTML is like the items needed to cook the food; the wood, stones, coconut shells and husk. It acts as a foundation of the whole website 'cooking' process. Without this foundation, you will not be able to cook any delicious food.</li>
+          <li>CSS is like the food placed and cooked on top of the umu foundation which then becomes yummy and flavourful. If the food is not stacked with care on top of the stones and in the correct order, the food may be undercooked or burnt.</li>
+          <li>DOM is like the process of weaving and placing food in baskets and sharing it. This process is like the representation or 'interface' of the relationship you have with your fellow vilagers.</li>
+          </ul>
+          <h3>Boxifying design</h3>
+          <p>
+            Boxifying design and the box model are a crucial part of the web page 'cooking' process.
+          </p>
+          <p>
+            To 'boxify a design' is to break a web design mock up down into smaller boxes. To do this you may:
+          </p>
+          <ul>
+          <li>make boxes on an image of the design</li>
+          <li>draw boxes to represent the design freehand</li>
+          <li>print the design and cut it into boxes</li>
+          </ul>
+          <p>
+            These methods are great ways to break down what lays ahead for implementing the design. 
+          </p>
+          <p>
+            The boxify process allows you to have a visual representation on the structure required to build the foundation of the website.
+          </p>
+          <p>
+            A great way to understand the layout of web pages is to get familiar with the 'box model'. 
+          </p>
+          <p>
+            In Udacity Lesson 1, I learnt that EVERY element is a rectangular box made made up of a margin, border and padding around content.
+          </p>      
+      </div> 
+      <div class="three columns"></div>
+    </div>
+  </div>
+<!-- Footer -->
+  <div class="container, footer">
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Pretend foot-er.
+          </p>
+          <a class="button" href="https://www.youtube.com/watch?v=Rr5IjO_O3IY">What are those?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
