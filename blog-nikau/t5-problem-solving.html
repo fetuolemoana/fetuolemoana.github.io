@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Problem solving - the umu* stack</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="https://fetuolemoana.github.io/styles/main.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="container">
+    <div class="row, navigation"> 
+        <div class="two columns">
+          <h4>about</h4>
+        </div>
+        <div class="two columns">
+          <h4>blog</h4>
+        </div>
+        <div class="four columns">
+          <a href="https://fetuolemoana.github.io/">
+            <img src="https://fetuolemoana.github.io/images/ocean-profile.jpg" alt="ocean face">
+          </a>
+        </div>
+        <div class="two columns">
+          <h4>projects</h4>
+        </div>
+        <div class="two columns">
+          <h4>contact</h4>
+        </div>
+    </div>
+  </div>
+  <!-- Blog content -->
+  <div class="container">
+    <div class="row, blog">
+    <div class="three columns">
+    </div>
+      <div class="six columns">
+        <p>31 July 2018</p>
+        <h2>Problem solving</h2>
+          <p>
+            FIZZBUZZ is an exercise found in Chapter 2: Programme Structure of Eloquent Javascript. The exercise asked that I create a program that uses console.log to print numbers from 1 to 100. However, if the number was divisible by 3, print “Fizz” instead of the number, and if the number was divisible by 5, print “Buzz” instead and finally, if the number was divisible by both 3 and 5, the word “FizzBuzz” should be printed. 
+          </p>
+          <p>
+            One of the problems was that the code that I had written was logging all numbers 1 to 100 including the Fizz, Buzz and FizzBuzz, instead of replacing the relevant numbers with the text. 
+          </p>
+        <h4>What problem solving techniques did you use?</h4>
+          <p>
+            The issue I encountered was resolved by stepping through the control flow. I was printing 1 to 100 first and then executing the other conditions to print text afterwards. 
+          </p>
+          <p>  
+            I solved the issue by asking myself what was happening step by step throughout the code I had written and writing out what I needed to happen. I was telling the console to print 1 to 100 first and then adding the conditions afterwards so that by the time it got to the Fizz, Buzz and FizzBuzz conditions, it had already printed 1 to 100 anyway. 
+          </p>
+          <p>
+            By breaking down the control flow steps and writing pseudocode, I could identify the space where the issue might reside. I needed to stop the code from printing the numbers that were to be replaced. To solve this, I added the comparison operator != asking the program that if the numbers (i) were not divisible by 3 and 5, print the number (console.log(i)). I then followed with the else if conditions instructing in what cases the text must be printed. I’m not sure how elegant or efficient the solution is, but the problem was solved!
+          </p>
+        <h4>How did you feel throughout the process?</h4>
+          <p>  
+            I felt frustrated, mad and then sad that I couldn’t work it out. I decided to take a self-care break and then come back to it. In hindsight, if I was more confident in using debugging techniques, it would have been solved a lot quicker. In fact, all of the blocks I had this sprint could have benefitted from a more technically established problem solving process. 
+          </p>
+          <p>  
+            I spent a lot of time on working out the updateCounts function in 5.3 Event-driven DOM modification. If I was more confident with the pseudocode and debugging techniques, I could have saved a lot of time and stress. 
+          </p>
+        <h4>Pseudocode</h4>
+          <p>  
+            So far my pseudo coding technique involves scribbling a problem and what I want to do or work out line by line on a piece of  paper. This is a technique I would like to develop more with a direct connection with the ‘trying something’ technique below. 
+          </p>
+        <h4>Trying something</h4>
+          <p>  
+            Trying something is the next step following my light pseudocode process. I enjoy exercises that take me through step by step first and I learn through repetition well. The program structure, event handling, altering the DOM and event-driven DOM modification cards were great at stepping me through a problem. 
+          </p>
+          <p>    
+            However, ‘trying something’ became a compulsory technique when there was less stepping through the problem and I was left to build a solution more independently. 
+          </p>
+        <h4>Rubber-ducky method</h4>
+          <p>    
+            I don’t have a rubber-ducky, but I do know how to talk to myself a lot. During this learning process I have had to engage in a lot of self-directed dialogue to problem solve. I am not inanimate, but describing and explaining a problem to myself has helped me to identify where a technical issue and learning opportunity is for me.  
+          </p>
+        <h4>Reading error messages</h4>
+          <p>    
+            I spent some time working out how to identify issues highlighted in Visual Studio Code. Helpfully, it shows the number of issues with code as you are working. Some online reviewers use extensions to turn this feature off as it constantly changes and is a distraction for them while working. However, this feature helped me to recognise that there may be an issue before I got to the ‘trying something’ or console.logging step in my problem solving process. 
+          </p>
+        <h4>Console.logging</h4>
+          <p>    
+            A lot of the exercises I have done so far require that the result be logged in order to render it visible. By default, console.logging has become a regular part of seeing if I have solved a problem correctly. However, I have not really used console.logging in an exercise that does not require it as a part of the end solution. 
+          </p>
+        <h4>Googling</h4>
+          <p>    
+            If I cannot find a solution in the provided resources, Google is my first step in problem solving. I have quickly discovered that the issues I encounter are not unique and often, working out the questions I need to ask around an issue helps me build a solution too. 
+          </p>
+        <h4>Asking your peers for help</h4>
+          <p>    
+            This is something that I haven’t had any practice with; I recognise that I have started later and am so far behind that I don’t want to use others’ time and impact their learning in a negative way. 
+          </p>
+        <h4>Asking coaches for help</h4>
+          <p>    
+            My feelings about not taking up my peers’ time has led to asking coaches for help not really being a part of my problem solving practice yet. Asking peers first and then the coaches is an established process for Phase-0. Therefore, not asking my peers means I feel like I am not entitled to ask coaches for help. 
+          </p>
+        <h4>Improving your process with reflection</h4>
+          <p>    
+            These reflections help me to understand and have an awareness of my personal barriers and some areas that could do with some extra learning technically. I recognise that being around people and getting to know them ‘kanohi ki te kanohi’ is really important to me and how I work. I have felt the best when I have had chats with tutors directly about my progress and they have provided some good feedback and practical tips on how I can move through the work that needs to be done before bootcamp. 
+          </p>
+          <p>    
+            There are a number of times where I have sat with a problem too long, but also the same number of times, I have worked it out and it demonstrates my individual resilience. However, I don’t think it should be that hard. That type of individual resilience is great for survival, but community resilience is where you can reach ‘su-thrive-al’ instead. I am keen to be part of a learning community and being in a shared space with other people learning as well will be awesome. 
+          </p>
+          <p>    
+            I am looking forward to getting in a classroom and being a part of an IRL team so much. Time and presence builds trust and I’m aware that I have had less time and presence in phase-0. Culturally, I feel ready to engage with these reflections. Technically, I want to be at a point where I am not letting the cohort down and I can engage with the bootcamp learning experience at maximum capacity. 
+          </p>
+          <p>    
+            Improving my process at this point, this week, means checking in with tutors constantly and they have made themselves available for this.        
+          </p>
+      </div> 
+      <div class="three columns"></div>
+    </div>
+  </div>
+<!-- Footer -->
+  <div class="container, footer">
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Pretend foot-er.
+          </p>
+          <a class="button" href="https://www.youtube.com/watch?v=Rr5IjO_O3IY">What are those?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
