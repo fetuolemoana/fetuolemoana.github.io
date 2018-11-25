@@ -1,58 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>the umu stack - sprint 3 technical</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="https://fetuolemoana.github.io/styles/main.css">
+  <head>
+        <title>Sprint 3 technical</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link href=“styles/main.css” rel=“stylesheet” type=“text/css”/>
+    </head>
+    <body>
+      <div class="container">
+          <div class="row, navigation">
+            <div class="two columns">
+              <h4><a href="https://fetuolemoana.github.io/">home</a></h4>
+            </div>
+            <div class="two columns">
+              <h4>fresh</h4>
+            </div>
+            <div class="two columns">
+              <h4>projects</h4>
+            </div>
+            <div class="two columns">
+              <h4>blog</h4>
+            </div>
+            <div class="two columns">
+              <h4>about</h4>
+            </div>
+            <div class="two columns">
+              <h4>holla mai</h4>
+            </div>
+          </div>
+        </div>
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>HTML and CSS meet JavaScript</h2>
+            <h3>An analogy to describe the difference between HTML and CSS</h3>
+            <p>
+              HTML holds the structure and textual content of a web page and CSS provides the instructions on its style and appearance. For example, the HTML could include headings, subheadings and paragraph text; and the CSS allows us to apply a different colour or font to that text.
+            </p>
+            <p>
+              The practice of tatau in Samoa may be used as an analogy for the differences between HTML and CSS. The malu and pe'a feature particular structures and motifs, and the ink is used as the content filling in this structure. Similarly, HTML holds the content and structure of a web page. 
+            </p>
+            <p>
+              The ways the structure and ink adorn / style the body of the malu or pe'a holder, is decided largely by the tufuga (and the wearer's holding ability), and the ancestors. Perhaps instead of cascading style sheets, we would describe it in a tatau context, a collective spirit song. 
+            </p>
+            <h3>Explain control flow and loops using an example process from everyday life</h3>
+            <p>
+              Control flow is about the order a computer executes what you ask it to do using coding languages. Generally, computer instructions are carried out from top to bottom. However, looping statements such as for, while and do-while, can require a computer to disrupt a default top down flow. 
+            </p>
+            <p>
+              The process of wiping blood while tatau is being carried out is a life process that can be compared to control flow and looping. 
+            </p>
+            <ol>
+              <li>Skin is stretched</li>
+              <li>the au is tapped</li>
+              <li>the sharp bone hits the flesh</li>
+              <li>if the amount of blood is less than x, return to step 1</li>
+              <li>else, assistant wipes the blood.</li>
+            </ol>
+            <h3>Describe what the DOM is and an example of how you might interact with it</h3>
+            <p>
+              The Document Object Model (DOM) is the browser's understanding and representation of an HTML document. 
 
-</head>
-<body>
-  <div class="container">
-    <div class="row, navigation">
-        <div class="two columns">
-          <h4><a href="https://fetuolemoana.github.io/">home</a></h4>
+              The DOM enables JavaScript to be used to access the HTML as an object and change the HTML elements of a web page; allowing us to make more dynamic and interactive websites. 
+                
+              You can interact with the DOM by opening developer tools in the browser and navigating to the 'elements' section, this is the DOM. 
+            </p>
+            <h3>Explain the difference between accessing data from arrays and objects</h3> 
+            <p>
+              Objects are variables that can contain multiple items (values, properties, methods / functions). You can access these things inside the objects by using the name of the property or method like so: 
+            </p>
+            <ul>
+              <li>objectName.propertyName</li>
+              <li>objectName["propertyName"]</li> 
+              <li>objectName.methodName()</li>
+            </ul>
+            <p>
+              Arrays can store multiple items (elements) under a single label (variable) too. However, the items in an array are accessed or 'called' using an automatically given index number starting from 0. To access an array item you may use the variable followed by the index number in brackets e.g. arrayName[0] will access the first item of the array. 
+            </p>
+            <h3>Explain what functions are and why they are useful</h3>
+            <p>
+              A function is a set of instructions / a customised JavaScript command created to carry out a particular action. Helpfully, the Watch and Code Practical JavaScript course describes functions as 'recipes'. The basic structure of a function is as follows: 
+            </p>
+            <p>
+              function nameOfFunction(parameters) {<br> 
+                instructions;<br>
+              }<br>
+              
+              To run a function: <br>
+              nameOfFunction()
+            </p>
+            <p> 
+              A function can be defined once and reused many times; this helps us to avoid being DRY (don't repeat yourself) and repeating ourselves again and again and again. 
+            </p>
+          </div>
         </div>
-        <div class="two columns">
-          <h4>fresh</h4>
-        </div>
-        <div class="two columns">
-          <h4>projects</h4>
-        </div>
-        <div class="two columns">
-          <h4>blog</h4>
-        </div>
-        <div class="two columns">
-          <h4>about</h4>
-        </div>
-        <div class="two columns">
-          <h4>holla mai</h4>
-        </div>
-    </div>
-  </div>
-
-  <header>
-    <div class="container">
-      <div class="twelve columns">
-        <h2>blogheading</h2>
-          <p>subtitle-caption</p>
       </div>
-    </div>
-  </header>
-
-  <article>
-    <div class="container">
-      <div class="row">
-        <div class="five columns">
-          <h6>blogquestion(s)</h6>
-            <p></p>
-        </div>
-      </div>
-    </div>
-  </article>
-
-<footer></footer>
-
-</body>
+    </body>
+    </head>
 </html>
